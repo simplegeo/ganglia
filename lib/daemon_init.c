@@ -92,7 +92,7 @@ daemon_init (const char *pname, int facility)
 
    i = chdir ("/");     /* change working directory */
 
-   umask (0);           /* clear our file mode creation mask */
+   umask (0002);           /* clear our file mode creation mask */
 
    for (i = 0; i < MAXFD; i++)
       close (i);
