@@ -50,13 +50,13 @@ clean:
 	[ ! -f Makefile ] || $(MAKE) distclean
 #	-rm -f dotconf-1.0.9/conftest.o
 #	-rm -f dotconf-1.0.9/conftest
-	-test -r /usr/share/misc/config.sub && \
-	  rm -f config.sub config/config.sub
-	  cp -f /usr/share/misc/config.sub config.sub
+	#-test -r /usr/share/misc/config.sub && \
+	#  rm -f config.sub config/config.sub
+	#  cp -f /usr/share/misc/config.sub config.sub
 	  #cp -f /usr/share/misc/config.sub config/config.sub
-	-test -r /usr/share/misc/config.guess && \
-	  rm -f config.guess config/config.guess
-	  cp -f /usr/share/misc/config.guess config.guess
+	#-test -r /usr/share/misc/config.guess && \
+	#  rm -f config.guess config/config.guess
+	#  cp -f /usr/share/misc/config.guess config.guess
 	  #cp -f /usr/share/misc/config.guess config/config.guess
 	-rm -f libtool.old	
 	debconf-updatepo
