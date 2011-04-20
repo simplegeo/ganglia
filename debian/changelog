@@ -1,3 +1,9 @@
+ganglia (3.1.7-1sg0) lucid; urgency=low
+
+  * SimpleGeo build
+
+ -- Jeremy Grosser <jeremy@synack.me>  Wed, 20 Apr 2011 20:19:41 +0000
+
 ganglia (3.1.7-1) unstable; urgency=low
 
   * New upstream version. Closes: #584276. 
