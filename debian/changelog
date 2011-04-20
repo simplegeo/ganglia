@@ -1,3 +1,14 @@
+ganglia (3.1.7-1sg7) lucid; urgency=low
+
+  [ Jeremy Grosser ]
+  * Remove build artifacts
+  * Add config.{guess,sub} files back
+  * Don't touch generated config.* files in clean
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 20 Apr 2011 20:32:03 +0000
+
 ganglia (3.1.7-1sg0) lucid; urgency=low
 
   * SimpleGeo build
