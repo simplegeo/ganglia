@@ -1,3 +1,12 @@
+ganglia (3.1.7-1sg9) lucid; urgency=low
+
+  [ Jeremy Grosser ]
+  * Remove --make-pidfile init script option
+
+  [ SimpleGeo Nerds ]
+
+ -- SimpleGeo Nerds <nerds@simplegeo.com>  Wed, 27 Apr 2011 20:20:44 +0000
+
 ganglia (3.1.7-1sg8) lucid; urgency=low
 
   [ Jeremy Grosser ]
