@@ -11,6 +11,8 @@ DAEMON=/usr/sbin/gmond
 NAME=gmond
 DESC="Ganglia Monitor Daemon"
 
+DAEMON_OPTS="--pid-file /var/run/$NAME.pid"
+
 test -x $DAEMON || exit 0
 
 set -e
@@ -18,8 +20,8 @@ set -e
 case "$1" in
   start)
 	echo -n "Starting $DESC: "
-	start-stop-daemon --start --quiet -m --pidfile /var/run/$NAME.pid \
-		--exec $DAEMON 
+	start-stop-daemon --start --quiet -m \
+		--exec $DAEMON -- $DAEMON_OPTS
 	echo "$NAME."
 	;;
   stop)
